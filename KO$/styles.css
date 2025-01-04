@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#about {
+  margin-bottom: 1.5rem;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+.intro {
+  margin-bottom: 4rem;
+}
+
+/* Navigation */
+nav {
+  margin: 2rem 0;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Projects */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #eee;
+}
